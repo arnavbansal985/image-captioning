@@ -5,14 +5,11 @@ Image captioning is describing an image fed to the model. The task of object det
 The dataset used is flickr8k. You can request the data [here](https://illinois.edu/fb/sec/1713398). An email for the links 
 of the data to be downloaded will be mailed to your id. Extract the images in Flickr8K_Data and the text data in Flickr8K_Text.
 
-## Requirements
+## Requirements(Main libraries)
 1. Tensorflow
 2. Keras
 3. Numpy
-4. h5py
-5. Pandas
-6. Pillow
-7. Pyttsx
+4. Pandas
 
 ## Steps to execute
 1. After extracting the data, execute the preprocess_data.py file by locating the file directory and execute "python preprocess_data.py". This file adds "start " and " end" token to the training and testing text data. On execution the file creates new txt files in Flickr8K_Text folder.
